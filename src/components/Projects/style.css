@@ -1,7 +1,6 @@
-/* #portfolio {
-    background: #F2EBEC;
-    margin-bottom: 50px;
-} */
+#portfolio {
+    flex-grow: 1;
+}
 
 #portfolio h3 {
     font-size: 29px;

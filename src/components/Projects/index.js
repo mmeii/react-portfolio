@@ -3,10 +3,10 @@ import './style.css';
 
 const Projects = () => {
     return (
-        <div className="container p-3" id="portfolio">
+        <div className="container" id="portfolio">
             <div className="row justify-description-center">
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
-                    <div className="card text-center h-100 pb-2">
+                    <div className="card text-center h-100">
                         <div className="imageBox">
                             <img src="Assets/Images/libmaker-screenshot.png" className="card-img-top border-bottom"
                                 alt="Screenshot of LibMaker project" />
