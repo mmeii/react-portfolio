@@ -8,7 +8,7 @@ const Projects = () => {
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100">
                         <div className="imageBox">
-                            <img src="Assets/Images/libmaker-screenshot.png" className="card-img-top border-bottom"
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`} className="card-img-top border-bottom"
                                 alt="Screenshot of LibMaker project" />
                         </div>
                         <div className="card-body mb-5 pl-0">
@@ -37,7 +37,7 @@ const Projects = () => {
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100">
                         <div className="imageBox">
-                            <img src="Assets/Images/eat-da-burger.png" className="card-img-top border-bottom"
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/eat-da-burger.png`} className="card-img-top border-bottom"
                                 alt="Screenshot of Eat-Da-Burger" />
                         </div>
                         <div className="card-body mb-5 pl-0">
@@ -63,7 +63,7 @@ const Projects = () => {
 
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100 pb-5">
-                        <img src="Assets/Images/coronadate-screenshot.png" className="card-img-top border-bottom"
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/coronadate-screenshot.png`} className="card-img-top border-bottom"
                             alt="Screenshot of Corona Date project" />
                         <div className="card-body mb-5 pl-0">
                             <h3>Corona Date</h3>
@@ -88,7 +88,7 @@ const Projects = () => {
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100">
                         <div className="imageBox">
-                            <img src="Assets/Images/todolist-screenshot.png" className="card-img-top border-bottom"
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/todolist-screenshot.png`} className="card-img-top border-bottom"
                                 alt="Screenshot of Eat-Da-Burger" />
                         </div>
                         <div className="card-body mb-5 pl-0">
@@ -115,7 +115,7 @@ const Projects = () => {
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100">
                         <div className="imageBox">
-                            <img src="Assets/Images/weatherdashboard-screenshot.png" className="card-img-top border-bottom"
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/weatherdashboard-screenshot.png`} className="card-img-top border-bottom"
                                 alt="Screenshot of Weather Dashboard" />
                         </div>
                         <div className="card-body mb-5 pl-0">
@@ -142,7 +142,7 @@ const Projects = () => {
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100">
                         <div className="imageBox">
-                            <img src="Assets/Images/codequiz-screenshot.png" className="card-img-top border-bottom"
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/codequiz-screenshot.png`} className="card-img-top border-bottom"
                                 alt="Screenshot of Code Quiz" />
                         </div>
                         <div className="card-body mb-5 pl-0">
