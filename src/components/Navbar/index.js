@@ -31,12 +31,6 @@ const NavBar = () => {
         <nav className="navbar">
             <div className="nav-wrapper">
                 <div className="logo">
-                    <Link to="/">
-                        <img
-                            src="https://via.placeholder.com/150"
-                            alt="brand"
-                        />
-                    </Link>
                 </div>
                 <div className="list-wrapper">
                     <i
@@ -57,7 +51,7 @@ const NavBar = () => {
                             <Link
                                 to="/"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/" && "#4071f4" }}
+                                style={{ color: location.pathname === "/" && "#afbdc9" }}
                             >
                                 Home
                             </Link>
@@ -66,7 +60,7 @@ const NavBar = () => {
                             <Link
                                 to="/about"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/about" && "#4071f4" }}
+                                style={{ color: location.pathname === "/about" && "#afbdc9" }}
                             >
                                 About
                             </Link>
@@ -75,7 +69,7 @@ const NavBar = () => {
                             <Link
                                 to="/skills"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/skills" && "#4071f4" }}
+                                style={{ color: location.pathname === "/skills" && "#afbdc9" }}
                             >
                                 Skills
                             </Link>
@@ -84,7 +78,7 @@ const NavBar = () => {
                             <Link
                                 to="/projects"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/projects" && "#4071f4" }}
+                                style={{ color: location.pathname === "/projects" && "#afbdc9" }}
                             >
                                 Projects
                             </Link>
@@ -93,7 +87,7 @@ const NavBar = () => {
                             <Link
                                 to="/contact"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/contact" && "#4071f4" }}
+                                style={{ color: location.pathname === "/contact" && "#afbdc9" }}
                             >
                                 Contact
                         </Link>

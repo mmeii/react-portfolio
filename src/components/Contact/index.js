@@ -13,40 +13,42 @@ const Contact = () => {
                 aria-hidden="false"
                 tabIndex="0"></iframe>
 
-            <h4>LinkedIn</h4>
-            <p>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mengmei-tu/">
-                    https://www.linkedin.com/in/mengmei-tu/
+            <div className="social">
+                <h4>LinkedIn</h4>
+                <p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mengmei-tu/">
+                        https://www.linkedin.com/in/mengmei-tu/
                 </a>
-            </p>
+                </p>
 
-            <h4>GitHub</h4>
-            <p>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/mmeii">
-                    https://github.com/mmeii
+                <h4>GitHub</h4>
+                <p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/mmeii">
+                        https://github.com/mmeii
                 </a>
-            </p>
+                </p>
 
-            <h4>Email</h4>
-            <p>
-                <a target="_blank" rel="noopener noreferrer" href="mailto:mmtu0290@gmail.com">
-                    mmtu0290@gmail.com
+                <h4>Email</h4>
+                <p>
+                    <a target="_blank" rel="noopener noreferrer" href="mailto:mmtu0290@gmail.com">
+                        mmtu0290@gmail.com
                 </a>
-            </p>
+                </p>
 
-            <h4>Resume</h4>
-            <p>
-                <a target="_blank" rel="noopener noreferrer" href="Assets/MengmeiTu_Resume.pdf">
-                    MengmeiTu_Resume
+                <h4>Resume</h4>
+                <p>
+                    <a target="_blank" rel="noopener noreferrer" href="Assets/MengmeiTu_Resume.pdf">
+                        MengmeiTu_Resume
                 </a>
-            </p>
+                </p>
 
-            <h4>Phone</h4>
-            <p>
-                <a target="_blank" rel="noopener noreferrer" href="tel:608-630-0288">
-                    608-630-0288
+                <h4>Phone</h4>
+                <p>
+                    <a target="_blank" rel="noopener noreferrer" href="tel:608-630-0288">
+                        608-630-0288
                 </a>
-            </p>
+                </p>
+            </div>
         </div>
     )
 }

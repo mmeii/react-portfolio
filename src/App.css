@@ -6,7 +6,16 @@
     min-height: 100vh;
     border-radius: 10px;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #F2EBEC;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color:#56738C;
+}
+
+a {
+    color: #56738C;
 }
 
 @media (min-width: 800px) {

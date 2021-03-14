@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
             <a target="_blank" rel="noopener noreferrer" href="tel:608-630-0288">
                 <i class="fas fa-phone-volume"></i>
-            </a><div className="text-right">Copyright © Mengmei Tu | IAMMEI</div>
+            </a><p>Copyright © Mengmei Tu | IAMMEI</p>
         </footer>
     )
 }

@@ -16,11 +16,6 @@
     height: 100%;
 }
 
-.logo img {
-    width: 100%;
-    margin-left: -18px;
-}
-
 .list-wrapper {
     display: flex;
     align-items: center;
@@ -55,7 +50,7 @@
 }
 
 .list-wrapper ul li a:hover {
-    color: #000000;
+    color: #56738C;
     background-color: #dddddd;
 }
 
@@ -95,7 +90,7 @@
 
 .list-wrapper ul li a {
     padding: 5px;
-    color: #000000;
+    color: #56738C;
 }
 
 .list-wrapper ul li a:hover {
@@ -103,5 +98,5 @@
     color: #333333;
     transform: scale(0.8);
     background: transparent;
-}
+    }
 }

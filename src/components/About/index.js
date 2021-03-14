@@ -3,14 +3,44 @@ import React from 'react';
 export const About = () => {
     return (
         <div className="about">
-            <h1>Bio</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu commodo erat. Suspendisse aliquam felis id aliquam molestie. Cras pharetra diam vitae metus tristique, at porttitor urna lacinia. Integer rutrum a orci sit amet mollis. Ut enim sem, iaculis eget est et, sagittis facilisis dolor. Quisque eget pharetra purus. Fusce imperdiet et tortor vel suscipit. Donec pellentesque nec neque a molestie. Curabitur molestie sapien a magna sollicitudin, in porta nisl accumsan. Fusce quis erat porttitor, luctus elit a, vestibulum nisl. Pellentesque arcu tortor, fermentum nec volutpat ac, interdum nec velit. In elementum nisi non risus convallis tempus. Vivamus at nisi elementum augue convallis interdum non in nisi.
-            </p>
-            <br />
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu commodo erat. Suspendisse aliquam felis id aliquam molestie. Cras pharetra diam vitae metus tristique, at porttitor urna lacinia. Integer rutrum a orci sit amet mollis. Ut enim sem, iaculis eget est et, sagittis facilisis dolor. Quisque eget pharetra purus. Fusce imperdiet et tortor vel suscipit. Donec pellentesque nec neque a molestie. Curabitur molestie sapien a magna sollicitudin, in porta nisl accumsan. Fusce quis erat porttitor, luctus elit a, vestibulum nisl. Pellentesque arcu tortor, fermentum nec volutpat ac, interdum nec velit. In elementum nisi non risus convallis tempus. Vivamus at nisi elementum augue convallis interdum non in nisi.
-            </p>
+            <h2>Nice to meet you.</h2>
+            <strong>
+                I am an enthusiastic fullstack web developer with a passion for creating web
+                applications and
+                maintaining enhanced user experiences built on JavaScript technologies.
+            </strong>
+
+            <h2 className="mt-5">Skills</h2>
+            <div className="content">
+                <div>
+                    <strong>Languages</strong>
+                    <li>JavaScript</li>
+                    {/* <li></li>
+                <li></li>
+                <li></li> */}
+                </div>
+                <div>
+                    <strong>Frameworks/Libraries</strong>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>React.js</li>
+                    <li>Bootstrap</li>
+                </div>
+                <div>
+                    <strong>Databases</strong>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    {/* <li></li>
+                <li></li> */}
+                </div>
+                <div>
+                    <strong>Tools</strong>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Webpack</li>
+                    <li>DevTools</li>
+                </div>
+            </div>
         </div>
     )
 }
