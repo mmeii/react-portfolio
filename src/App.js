@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/reactjs-website">
       <div className="app">
         <Navbar />
         <Switch>
