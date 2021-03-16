@@ -4,16 +4,12 @@ import App from './App';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import { createHashHistory } from "history";
-import { Router } from "react-router";
-
-const history = createHashHistory();
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-    <Router history={history}>
+    <BrowserRouter basename="/react-portfolio">
         <App />
-    </Router>,
-    document.getElementById('root')
+    </BrowserRouter>,
+    document.getElementById("root")
 );
-
 
