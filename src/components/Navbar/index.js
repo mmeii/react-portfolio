@@ -49,9 +49,9 @@ const NavBar = () => {
                     <ul style={{ left: open ? "0" : "-100vw" }}>
                         <li>
                             <Link
-                                to="/react-portfolio"
+                                to="/"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/react-portfolio" && "#afbdc9" }}
+                                style={{ color: location.pathname === "/" && "#afbdc9" }}
                             >
                                 Home
                             </Link>
