@@ -11,14 +11,22 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/reactjs-website">
+    <Router>
       <div className="app">
         <Navbar />
         <Switch>
-          <Route exact path="/react-portfolio" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path={"/react-portfolio"}>
+            <Home />
+          </Route>
+          <Route exact path={["/about", "/about"]}>
+            <About />
+          </Route>
+          <Route exact path={["/projects", "/projects"]}>
+            <Projects />
+          </Route>
+          <Route exact path={["/contact", "/contact"]}>
+            <Contact />
+          </Route>
         </Switch>
         <Footer />
       </div>
